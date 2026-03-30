@@ -170,34 +170,6 @@ TPR = TP / (TP + FN) and FPR = FP / (FP + TN) both normalise by their own class 
 
 ---
 
-## Block 6 — Exam simulation: 3 worked questions (15 min)
-
-Walk through three questions exactly as students will face them. Spend time on the *justification*, not just the answer letter.
-
-### L1 sparsity mechanism
-
-Most students know L1 produces sparse weights. The exam tests whether they know *why*. The justification must mention: subdifferential of |w| at w=0 includes 0, so a weight that reaches zero has no restoring force. "L1 produces sparsity" alone earns 3/10.
-
-### PCA discards the discriminative direction
-
-This is the most commonly misunderstood question type. Students will read option C ("PCA automatically detects class structure") and be tempted. Walk through why PCA is unsupervised — it never sees class labels — and why maximum-variance direction and maximum-discriminative direction are independent concepts.
-
-### Vanishing gradient: compute 0.25^10
-
-Walk through the arithmetic explicitly. The justification must show: σ'(z) ≤ 0.25 at each of 10 layers, product = 0.25^10 ≈ 10^{-6}, conclusion: early layers receive negligible gradient signal. This is the level of precision the rubric rewards.
-
----
-
-## Closing (5 min)
-
-Two things to say explicitly:
-
-1. **The justification is the exam.** Write the mechanism, not the conclusion.
-   - Weak: "L1 produces sparsity" → 3/10
-   - Strong: "the subdifferential of |w| at w=0 includes 0, so once a weight reaches zero no restoring force acts on it" → 9/10
-
-2. **If you can't remember a formula, reason from the definition.** The exam rewards understanding over memorisation. Deriving the BCE+sigmoid gradient from scratch during the exam is worth full marks.
-
 ---
 
 ## What NOT to cover
