@@ -58,7 +58,6 @@ Attendance is recorded via Qwickly PIN check-in on the Canvas Student App.
 - **3** — Detailed, demonstrates depth
 
 ### Exam Format
-- 14 questions, 10 pts each, best 8 count (64 pts maximum contributing)
 - Written justification required — a correct answer with no justification earns at most 3 points
 - **The justification is what is being tested**
 
