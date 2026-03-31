@@ -5,23 +5,23 @@
 
 ## Table of Contents
 
-1. [Course Structure and Grading](#course-structure)
-2. [Week 1: Introduction to Machine Learning](#week-1)
-3. [Week 2: Linear Algebra, Eigendecomposition, PCA Setup](#week-2)
-4. [Week 3: K-Means and PCA](#week-3)
-5. [Week 4: Probabilistic View of Data](#week-4)
-6. [Week 5: Logistic Regression and Maximum Likelihood](#week-5)
-7. [Weeks 6–7: Metrics, Overfitting, and Regularization](#week-6-7)
-8. [Week 8: MAP Estimation and Neural Networks Introduction](#week-8)
-9. [Weeks 9–10: Backpropagation and PyTorch Autograd](#week-9-10)
-10. [Week 11: Midterm Review](#week-11)
-11. [Project: Voice Activity Detection](#project)
-12. [Algorithm and Formula Reference](#formula-reference)
-13. [Key Tools and Resources](#tools-reference)
+1. [Course Structure and Grading](#course-structure-and-grading)
+2. [Week 1: Introduction to Machine Learning](#week-1-introduction-to-machine-learning)
+3. [Week 2: Linear Algebra, Eigendecomposition, PCA Setup](#week-2-linear-algebra-eigendecomposition-pca-setup)
+4. [Week 3: K-Means and PCA](#week-3-k-means-and-pca)
+5. [Week 4: Probabilistic View of Data](#week-4-probabilistic-view-of-data)
+6. [Week 5: Logistic Regression and Maximum Likelihood](#week-5-logistic-regression-and-maximum-likelihood)
+7. [Weeks 6-7: Metrics, Overfitting, and Regularization](#weeks-6-7-metrics-overfitting-and-regularization)
+8. [Week 8: MAP Estimation and Neural Networks Introduction](#week-8-map-estimation-and-neural-networks-introduction)
+9. [Weeks 9-10: Backpropagation and PyTorch Autograd](#weeks-9-10-backpropagation-and-pytorch-autograd)
+10. [Week 11: Midterm Review](#week-11-midterm-review)
+11. [Project: Voice Activity Detection](#project-voice-activity-detection)
+12. [Algorithm and Formula Reference](#algorithm-and-formula-reference)
+13. [Key Tools and Resources](#key-tools-and-resources)
 
 ---
 
-## <a name="course-structure"></a>Course Structure and Grading
+## Course Structure and Grading
 
 ### Weekly Activity Format
 
@@ -59,7 +59,7 @@ Attendance is recorded via Qwickly PIN check-in on the Canvas Student App.
 
 ---
 
-## <a name="week-1"></a>Week 1 — Introduction to Machine Learning
+## Week 1: Introduction to Machine Learning
 
 ### Main Topics
 - What is machine learning? Classification and regression as supervised tasks
@@ -98,7 +98,7 @@ Attendance is recorded via Qwickly PIN check-in on the Canvas Student App.
 
 ---
 
-## <a name="week-2"></a>Week 2 — Linear Algebra, Eigendecomposition, PCA Setup
+## Week 2: Linear Algebra, Eigendecomposition, PCA Setup
 
 ### Main Topics
 - Training pipeline vs inference pipeline
@@ -141,7 +141,7 @@ where Q is the matrix of eigenvectors (as columns) and Λ is diagonal with eigen
 
 ---
 
-## <a name="week-3"></a>Week 3 — K-Means and PCA
+## Week 3: K-Means and PCA
 
 ### Main Topics
 - PCA: encode/decode formulation
@@ -190,7 +190,7 @@ PCA minimises: `‖x − decode(encode(x))‖²`
 
 ---
 
-## <a name="week-4"></a>Week 4 — Probabilistic View of Data
+## Week 4: Probabilistic View of Data
 
 ### Main Topics
 - Data and labels as samples from probability distributions
@@ -232,7 +232,7 @@ P(H | D) = P(D | H) · P(H) / P(D)
 
 ---
 
-## <a name="week-5"></a>Week 5 — Logistic Regression and Maximum Likelihood
+## Week 5: Logistic Regression and Maximum Likelihood
 
 ### Main Topics
 - Logistic regression as a discriminative model
@@ -277,7 +277,7 @@ z = wᵀx + b
 
 ---
 
-## <a name="week-6-7"></a>Weeks 6–7 — Metrics, Overfitting, and Regularization
+## Weeks 6-7: Metrics, Overfitting, and Regularization
 
 ### Main Topics
 - Evaluation metrics beyond accuracy
@@ -344,7 +344,7 @@ Using logistic regression with sklearn on a fake news binary classification data
 
 ---
 
-## <a name="week-8"></a>Week 8 — MAP Estimation and Neural Networks Introduction
+## Week 8: MAP Estimation and Neural Networks Introduction
 
 ### Main Topics
 - Bayesian derivation of regularization (Bishop PRML connection)
@@ -387,7 +387,7 @@ Deep networks learn increasingly abstract features in later layers. Early layers
 
 ---
 
-## <a name="week-9-10"></a>Weeks 9–10 — Backpropagation and PyTorch Autograd
+## Weeks 9-10: Backpropagation and PyTorch Autograd
 
 ### Main Topics
 - The four backpropagation equations (BP1–BP4)
@@ -488,7 +488,7 @@ Compare to backprop gradient; relative error < 10⁻⁵ is acceptable.
 
 ---
 
-## <a name="week-11"></a>Week 11 — Midterm Review
+## Week 11: Midterm Review
 
 ### Main Topics
 - Consolidation of Weeks 1–10
@@ -515,7 +515,7 @@ The most-asked clusters on Piazza going into the midterm:
 
 ---
 
-## <a name="project"></a>Project — Voice Activity Detection (VAD)
+## Project: Voice Activity Detection
 
 ### Overview
 Teams build a VAD classifier that distinguishes speech from non-speech audio frames. The baseline approach uses the SpeechBrain framework with a frozen speech encoder and a trained classification head. Teams then extend to a sub-problem variation.
@@ -539,7 +539,7 @@ Teams build a VAD classifier that distinguishes speech from non-speech audio fra
 
 ---
 
-## <a name="formula-reference"></a>Algorithm and Formula Reference
+## Algorithm and Formula Reference
 
 ### Linear Algebra
 | Formula | Description |
@@ -598,7 +598,7 @@ Teams build a VAD classifier that distinguishes speech from non-speech audio fra
 
 ---
 
-## <a name="tools-reference"></a>Key Tools and Resources
+## Key Tools and Resources
 
 ### Software and Frameworks
 | Tool | Purpose |
