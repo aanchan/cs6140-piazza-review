@@ -1,10 +1,6 @@
 # CS 6140 Machine Learning
 ## Comprehensive Course Summary: Weeks 1–11
 
-**Course:** CS6140.39092 Machine Learning, Section 06, Spring 2026
-**Instructor:** Prof. Aanchan Mohan | **TA:** Chencheng (Jane) Feng
-**Format:** Hybrid — Vancouver Campus | **Mid-term:** April 6, in-person, paper-based
-
 ---
 
 ## Table of Contents
